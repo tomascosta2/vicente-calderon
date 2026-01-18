@@ -5,19 +5,18 @@ export default function Home() {
   const TESTIMONIALS_VIDEO_PAGE = [
     {
       video: "https://www.youtube.com/embed/gpwLhpWX7qo?si=fSN9JjHTACpX4VdU",
-      titulo: "Cómo logré perder 10 kg en 3 meses",
-      story: "Gracias al Método [M], recuperé mi energía y confianza.",
-      nombre: "María G.",
-      dato: "34 años, Buenos Aires",
+      titulo: "",
+      story: "",
+      nombre: "",
+      dato: "",
     },
     {
       video: "https://www.youtube.com/embed/mwGd2Y_eGkI?si=QhawwXunJFPTWOJC",
-      titulo: "Mi transformación con el Método [M]",
-      story: "Perdí 8 kg y mejoré mi salud sin dietas extremas.",
-      nombre: "Carlos R.",
-      dato: "42 años, Córdoba",
+      titulo: "",
+      story: "",
+      nombre: "",
+      dato: "",
     },
-    // Agregar más testimonios según sea necesario
   ];
 
   return (
@@ -71,7 +70,7 @@ export default function Home() {
           </section>
 
           <div className="mt-12">
-            <div className="flex gap-2 items-center justify-center w-[880px] mx-auto">
+            <div className="flex flex-col md:flex-row gap-2 items-center justify-center md:w-[880px] mx-auto">
               <button
                 className="cf-btn --sm"
                 style={{ margin: 0 }}
@@ -124,7 +123,7 @@ export default function Home() {
                       <div className="relative bg-[#171717] z-50 p-4 md:p-[50px] rounded-[20px] flex md:flex-row flex-col gap-4 md:gap-8">
                         <div className="w-full max-w-[400px] aspect-video rounded-[10px] overflow-hidden">
                           <iframe
-                            className="w-full h-full"
+                            className="w-full h-full border border-white/20 rounded-[10px]"
                             src={testimonial.video}
                             title={testimonial.titulo}
                             allow="autoplay; fullscreen"
