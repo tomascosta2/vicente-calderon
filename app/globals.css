@@ -288,7 +288,7 @@ body {
 	@apply max-w-[1090px] mx-auto px-4;
 }
 .cf-btn {
-	@apply flex items-center font-semibold text-[16px] md:text-[18px] justify-center gap-2 rounded-[12px] w-full py-6 tracking-[-1%] disabled:bg-gray-400 text-[var(--text-primary)] cursor-pointer text-center max-w-[480px] mx-auto 
+	@apply flex items-center font-semibold text-[16px] md:text-[18px] justify-center gap-2 rounded-[12px] w-full py-4 px-20 tracking-[-1%] disabled:bg-gray-400 text-[var(--text-primary)] cursor-pointer text-center max-w-[480px] mx-auto 
 	not-disabled:bg-gradient-to-r
     from-[var(--primary)] via-[#FF693C] to-[var(--primary)]
     not-disabled:shadow-[0_0_25px_rgba(255,80,0,0.6)]

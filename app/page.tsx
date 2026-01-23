@@ -5,22 +5,22 @@ export default function Home() {
   const TESTIMONIALS_VIDEO_PAGE = [
     {
       video: "https://www.youtube.com/embed/gpwLhpWX7qo?si=fSN9JjHTACpX4VdU",
-      titulo: "",
-      story: "",
-      nombre: "",
-      dato: "",
+      titulo: "Titulo",
+      story: "Story",
+      nombre: "Nombre",
+      dato: "Dato",
     },
     {
       video: "https://www.youtube.com/embed/mwGd2Y_eGkI?si=QhawwXunJFPTWOJC",
-      titulo: "",
-      story: "",
-      nombre: "",
-      dato: "",
+      titulo: "Titulo",
+      story: "Story",
+      nombre: "Nombre",
+      dato: "Dato",
     },
   ];
 
   return (
-    <div className="relative overflow-clip pt-8 md:pt-12">
+    <div className="relative overflow-clip pt-12">
       <img
         src="/images/Sombra.webp"
         alt="Sombra"
@@ -33,8 +33,8 @@ export default function Home() {
       />
       <div className="bg-[var(--primary)]/80 size-[600px] rounded-full left-1/2 transform hidden md:block -translate-x-1/2 absolute -z-50  blur-[800px] -top-[400px]"></div>
 
-      <img src="/images/logo.png" className="h-[25px] object-contain mx-auto" alt="Logo" />
-      <header className="bg-linear-0 from-[#0E0E0E] to-[#1C1B1B] max-w-[85%] mt-12 w-[500px] rounded-full mx-auto border border-[var(--primary)]/30 z-50">
+      {/* <img src="/images/logo.png" className="h-[25px] object-contain mx-auto" alt="Logo" /> */}
+      <header className="bg-linear-0 from-[#0E0E0E] to-[#1C1B1B] max-w-[85%] w-[500px] rounded-full mx-auto border border-[var(--primary)]/30 z-50">
         <div className="cf-container">
           <h3 className="text-center uppercase text-[var(--text-primary)]/80 tracking-widest text-[12px] py-3 leading-[130%]">
             <span>Buscamos setters y closers con experiencia</span>
@@ -50,27 +50,27 @@ export default function Home() {
               Dejá de perseguir leads fríos. Sumate a un sistema con oportunidades reales
             </span>
           </h1>
-          <p className="text-[var(--primary)] text-center mt-2">
+          {/* <p className="text-[var(--primary)] text-center mt-2">
             En este video te explico paso a paso cómo funciona el sistema y si realmente es para vos.
-          </p>
+          </p> */}
           <section className="relative">
-            <div className="bg-[#131313] p-1 pt-0 border-1 border-[var(--primary)] overflow-clip rounded-[12px] md:rounded-[16px] border-[var(--primary)] mt-6 max-w-[970px] mx-auto">
+            <div className="bg-[#131313] p-1 pt-0 border-1 border-[var(--primary)] overflow-clip rounded-[12px] md:rounded-[16px] border-[var(--primary)] mt-6 max-w-[900px] mx-auto">
               <div className="p-2 text-center text-[12px] uppercase text-[var(--text-primary)] tracking-widest bg-[#131313]">
-                <span>Paso 1 de 2:</span> Mirá este video completo
+                Mirá este video completo
               </div>
               <div className="bg-[#131313] aspect-video rounded-[8px] md:rounded-[12px] overflow-clip">
                 <iframe
                   className="w-full aspect-video"
                   id={``}
-                  src={``}
+                  src={`https://fast.wistia.net/embed/iframe/8gnk7rwlex?web_component=true&seo=true`}
                   allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
                 ></iframe>
               </div>
             </div>
           </section>
 
-          <div className="mt-12">
-            <div className="flex flex-col md:flex-row gap-2 items-center justify-center md:w-[880px] mx-auto">
+          <div className="mt-8 md:mt-12">
+            <div className="flex flex-col md:flex-row gap-4 items-center justify-center md:w-[880px] mx-auto">
               <button
                 className="cf-btn --sm"
                 style={{ margin: 0 }}
@@ -154,6 +154,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <p className="text-white/80 text-center py-6 text-[14px]">© Vicente Calderon 2026. Todos los derechos reservados.</p>
     </div>
   );
 }
