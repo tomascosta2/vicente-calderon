@@ -45,7 +45,7 @@ export default function Home() {
       {/* Sección VSL (siempre visible) */}
       <section className="mt-6 pb-[60px] md:pb-[100px] relative overflow-clip">
         <div className="cf-container">
-          <h1 className="text-center text-[28px] max-w-[600px] mx-auto md:text-[42px] font-bold uppercase leading-[140%] md:px-4">
+          <h1 className="text-center text-[32px] max-w-[600px] mx-auto md:text-[42px] font-bold uppercase leading-[140%] md:px-4">
             <span>
               RECLUTAMIENTO DE CLOSER Y SETTERS.
             </span>
