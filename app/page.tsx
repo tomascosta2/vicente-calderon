@@ -43,15 +43,15 @@ export default function Home() {
       </header> */}
 
       {/* Sección VSL (siempre visible) */}
-      <section className="mt-6 pb-[60px] md:pb-[100px] relative overflow-clip">
+      <section className="mt-6 relative overflow-clip">
         <div className="cf-container">
-          <h1 className="text-center text-[32px] max-w-[600px] mx-auto md:text-[42px] font-bold uppercase leading-[140%] md:px-4">
+          <h1 className="text-center text-[32px] mx-auto md:text-[42px] font-bold uppercase leading-[140%] md:px-4">
             <span>
-              RECLUTAMIENTO DE CLOSER Y SETTERS.
+              RECLUTAMIENTO DE CLOSER Y SETTER.
             </span>
           </h1>
-          <p className="text-[var(--primary)] text-center mt-2 max-w-[360px] mx-auto">
-            Trabaja como setter o closer en nuestra empresa. No es ningún curso, es una oferta laboral.
+          <p className="text-white/90 text-center mt-2 max-w-[360px] mx-auto">
+            No es ningún curso, es una oferta laboral.
           </p>
           <section className="relative">
             <div className="bg-[#131313] p-1 pt-0 border-1 border-[var(--primary)] overflow-clip rounded-[12px] md:rounded-[16px] border-[var(--primary)] mt-6 max-w-[800px] mx-auto">
@@ -75,13 +75,13 @@ export default function Home() {
                 className="cf-btn --sm"
                 style={{ margin: 0 }}
               >
-                POSTULACIÓN SETTER
+                POSTULACIÓN SETTER.
               </button>
               <button
                 className="cf-btn --sm"
                 style={{ margin: 0 }}
               >
-                POSTULACIÓN SETTER
+                POSTULACIÓN SETTER.
               </button>
             </div>
             {/* <div className="h-[1px] relative overflow-clip max-w-[212px] mx-auto mt-4">
