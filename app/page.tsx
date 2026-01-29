@@ -71,18 +71,20 @@ export default function Home() {
 
           <div className="mt-8 md:mt-12">
             <div className="flex flex-col md:flex-row gap-4 items-center justify-center md:w-[880px] mx-auto">
-              <button
+              <a
+                href="https://tally.so/r/68Zg9P"
                 className="cf-btn --sm"
                 style={{ margin: 0 }}
               >
                 POSTULACIÓN SETTER.
-              </button>
-              <button
+              </a>
+              <a
+                href="https://tally.so/r/aQ2Ryv"
                 className="cf-btn --sm"
                 style={{ margin: 0 }}
               >
                 POSTULACIÓN SETTER.
-              </button>
+              </a>
             </div>
             {/* <div className="h-[1px] relative overflow-clip max-w-[212px] mx-auto mt-4">
               <div className="bg-radial from-white to-black/0 size-[200px]"></div>
