@@ -3,8 +3,8 @@ import "./globals.css";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: `Método [M] - Vicente Calderón`,
-  description: `Método [M] - Vicente Calderón`,
+  title: `Casy Licencia`,
+  description: `Casy Licencia`,
 };
 
 export default function RootLayout({
@@ -46,6 +46,15 @@ export default function RootLayout({
         <link rel="preconnect" href="https://calendly.com" crossOrigin="" />
         <link rel="dns-prefetch" href="https://assets.calendly.com" />
         <link rel="dns-prefetch" href="https://calendly.com" />
+        <meta property="og:title" content="Casy Licencia" />
+        <meta property="og:description" content="Casy Licencia" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="es_ES" />
+        <meta property="og:image" content="/images/og-image.jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Casy Licencia" />
+        <meta name="twitter:description" content="Casy Licencia" />
+        <meta name="twitter:image" content="/images/og-image.jpeg" />
 
       </head>
       <body>

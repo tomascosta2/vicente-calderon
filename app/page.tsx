@@ -72,18 +72,18 @@ export default function Home() {
           <div className="mt-8 md:mt-12">
             <div className="flex flex-col md:flex-row gap-4 items-center justify-center md:w-[880px] mx-auto">
               <a
-                href="https://tally.so/r/68Zg9P"
+                href="https://tally.so/r/aQ2Ryv"
                 className="cf-btn --sm"
                 style={{ margin: 0 }}
               >
                 POSTULACIÓN SETTER.
               </a>
               <a
-                href="https://tally.so/r/aQ2Ryv"
+                href="https://tally.so/r/68Zg9P"
                 className="cf-btn --sm"
                 style={{ margin: 0 }}
               >
-                POSTULACIÓN SETTER.
+                POSTULACIÓN CLOSER.
               </a>
             </div>
             {/* <div className="h-[1px] relative overflow-clip max-w-[212px] mx-auto mt-4">
@@ -109,7 +109,7 @@ export default function Home() {
             {TESTIMONIALS_VIDEO_PAGE.map((testimonial) => {
               return (
                 <div
-                  className="shadow-[0_4px_90px_0_#FF3B0070] rounded-[25px]"
+                  className="md:shadow-[0_4px_90px_0_#FF3B0070] rounded-[25px]"
                   key={testimonial.video}
                 >
                   <div>
