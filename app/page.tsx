@@ -109,19 +109,19 @@ export default function Home() {
             {TESTIMONIALS_VIDEO_PAGE.map((testimonial) => {
               return (
                 <div
-                  className="md:shadow-[0_4px_90px_0_#FF3B0070] rounded-[25px] overflow-hidden relative"
+                  className="md:shadow-[0_4px_90px_0_#FF3B0070] bg-[var(--primary)]/90 rounded-[25px] overflow-hidden relative isolation-isolate"
                   key={testimonial.video}
                 >
                   <div>
                     <div
                       key={testimonial.video}
-                      className="p-1 md:p-2 rounded-[24px] relative overflow-hidden z-5 relative"
+                      className="p-1 md:p-2 rounded-[24px] relative overflow-hidden z-5 relative isolation-isolate"
                     >
                       <div className="h-[2px] absolute top-0 overflow-hidden w-full">
                         <div className="bg-white size-[80px] md:size-[300px] -top-[40px] md:top-[-150px] blur-[20px] md:blur-[100px] opacity-[100%] rounded-full absolute left-[calc(50%-40px)] md:left-[calc(50%-150px)] -z-50"></div>
                       </div>
-                      <div className="bg-[var(--primary)] size-[900px] top-[-450px] blur-[150px] opacity-[70%] rounded-full absolute -right-[450px] -z-40"></div>
-                      <div className="bg-[var(--primary)] size-[900px] bottom-[-450px] blur-[150px] opacity-[70%] rounded-full absolute -left-[450px] -z-40"></div>
+                      {/* <div className="bg-[var(--primary)] size-[900px] top-[-450px] blur-[150px] opacity-[70%] rounded-full absolute -right-[450px] -z-40"></div>
+                      <div className="bg-[var(--primary)] size-[900px] bottom-[-450px] blur-[150px] opacity-[70%] rounded-full absolute -left-[450px] -z-40"></div> */}
                       <div className="relative bg-[#171717] z-50 rounded-[20px] flex md:flex-row flex-col gap-4 md:gap-8">
                         <div className="w-full aspect-video rounded-[21px] overflow-hidden">
                           <iframe
