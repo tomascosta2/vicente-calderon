@@ -115,7 +115,7 @@ export default function Home() {
                   <div>
                     <div
                       key={testimonial.video}
-                      className="p-1 md:p-2 rounded-[24px] relative overflow-hidden z-50"
+                      className="p-1 md:p-2 rounded-[24px] relative overflow-hidden z-5 relative"
                     >
                       <div className="h-[2px] absolute top-0 overflow-hidden w-full">
                         <div className="bg-white size-[80px] md:size-[300px] -top-[40px] md:top-[-150px] blur-[20px] md:blur-[100px] opacity-[100%] rounded-full absolute left-[calc(50%-40px)] md:left-[calc(50%-150px)] -z-50"></div>
