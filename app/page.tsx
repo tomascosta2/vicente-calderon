@@ -109,7 +109,7 @@ export default function Home() {
             {TESTIMONIALS_VIDEO_PAGE.map((testimonial) => {
               return (
                 <div
-                  className="md:shadow-[0_4px_90px_0_#FF3B0070] rounded-[25px] overflow-hidden"
+                  className="md:shadow-[0_4px_90px_0_#FF3B0070] rounded-[25px] overflow-hidden relative"
                   key={testimonial.video}
                 >
                   <div>
