@@ -109,15 +109,15 @@ export default function Home() {
             {TESTIMONIALS_VIDEO_PAGE.map((testimonial) => {
               return (
                 <div
-                  className="md:shadow-[0_4px_90px_0_#FF3B0070] rounded-[25px] overflow-clip"
+                  className="md:shadow-[0_4px_90px_0_#FF3B0070] rounded-[25px] overflow-hidden"
                   key={testimonial.video}
                 >
                   <div>
                     <div
                       key={testimonial.video}
-                      className="p-1 md:p-2 rounded-[24px] relative overflow-clip z-50"
+                      className="p-1 md:p-2 rounded-[24px] relative overflow-hidden z-50"
                     >
-                      <div className="h-[2px] absolute top-0 overflow-clip w-full">
+                      <div className="h-[2px] absolute top-0 overflow-hidden w-full">
                         <div className="bg-white size-[80px] md:size-[300px] -top-[40px] md:top-[-150px] blur-[20px] md:blur-[100px] opacity-[100%] rounded-full absolute left-[calc(50%-40px)] md:left-[calc(50%-150px)] -z-50"></div>
                       </div>
                       <div className="bg-[var(--primary)] size-[900px] top-[-450px] blur-[150px] opacity-[70%] rounded-full absolute -right-[450px] -z-40"></div>
